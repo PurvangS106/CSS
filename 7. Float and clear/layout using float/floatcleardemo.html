@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purvang's Image Gallary</title>
+    <style>
+
+        /* Float 
+        The float property is used for positioning and formatting content. For Exp. let an image float left to the text in a container. 
+        The float property can have one of the following values:
+            left - The element floats to the left of its container
+            right - The element floats to the right of its container
+            none - The element does not float (will be displayed just where it occurs in the text). This is default
+            inherit - The element inherits the float value of its parent
+
+        clear
+        When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property.
+        The clear property specifies what should happen with the element that is next to a floating element.
+        The clear property can have one of the following values:
+            none - The element is not pushed below left or right floated elements. This is default
+            left - The element is pushed below left floated elements
+            right - The element is pushed below right floated elements
+            both - The element is pushed below both left and right floated elements
+            inherit - The element inherits the clear value from its parent
+        When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page. */
+
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        .main
+        {
+            height: auto;
+            width: auto;
+            float: left;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: black;
+        }
+        .d1
+        {
+            height: 450px;
+            width: 300px;
+            margin: 2px;
+            color: black;
+            align-items: center;
+            text-align: center;
+            font-size: 8px;
+            padding: 0 5px;
+            float: left;
+
+        }
+        img
+        {
+            height:300px;
+            width: 100%;
+            margin-top: 2px;
+            filter: grayscale(100);
+        }
+        .a1
+        {
+            font-size: 20px;
+            opacity: 0;
+            color: black;
+        }
+        .d1 a
+        {
+            color: black;
+            font-size: 15px;
+        }
+        .d1:hover img
+        {
+            filter: grayscale(0);
+            background-color: yellow;
+            color: white;
+        }
+        .d1:hover .a1
+        {
+            font-size: 25px;
+            opacity: 1;
+            transition: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="d1" style="background-color: lightsalmon;">
+        <img src="lion.jpeg" alt="">
+        <a class="a1" href="">Lion</a>
+        <p><a href="https://en.wikipedia.org/wiki/Lion">The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightskyblue;">
+        <img src="tiger.jpeg" alt="">
+        <a class="a1" href="">Tiger</a>
+        <p><a href="https://en.wikipedia.org/wiki/Tiger">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightseagreen;">
+        <img src="panther.jpeg" alt="">
+        <a class="a1" href="">Panther</a>
+        <p><a href="https://en.wikipedia.org/wiki/Panther">Black panther, a name for the phenotypic genetic variant that forms the black leopard or jaguar.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightcoral;">
+        <img src="bull.jpeg" alt="">
+        <a class="a1" href="">Bull</a>
+        <p><a href="https://en.wikipedia.org/wiki/Bull">A bull is an intact (i.e., not castrated) adult male of the species Bos taurus (cattle).</a></p>
+    </div>
+    <div class="d1" style="background-color: lightslategrey;">
+        <img src="hyena.jpeg" alt="">
+        <a class="a1" href="">Hyena</a>
+        <p><a href="https://en.wikipedia.org/wiki/Hyena">Hyenas, or hyaenas (from Ancient Greek ὕαινα, hýaina),[1] are feliform carnivoran mammals of the family Hyaenidae /haɪˈɛnɪdiː/. With only four extant species (each in its own genus), it is the fifth-smallest family in the Carnivora and one of the smallest in the class Mammalia.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightgreen;">
+        <img src="crocodile.jpeg" alt="">
+        <a class="a1" href="">Crocodile</a>
+        <p><a href="https://en.wikipedia.org/wiki/Crocodile">Crocodiles (family Crocodylidae) or true crocodiles are large semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightpink;">
+        <img src="dog.jpeg" alt="">
+        <a class="a1" href="">Dog</a>
+        <p><a href="https://en.wikipedia.org/wiki/Dog">The dog is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from the extinct Pleistocene wolf,[6][7] and the modern wolf is the dog's nearest living relative.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightcyan;">
+        <img src="leopard.jpeg" alt="">
+        <a class="a1" href="">Leopard</a>
+        <p><a href="https://en.wikipedia.org/wiki/Leopard">The leopard (Panthera pardus) is one of the five extant species in the genus Panthera, a member of the cat family, Felidae.[4] It occurs in a wide range in sub-Saharan Africa, in some parts of Western and Central Asia, Southern Russia, and on the Indian subcontinent to Southeast and East Asia.</a></p>
+    </div>
+    <div class="d1" style="background-color: lightgoldenrodyellow;">
+        <img src="elephant.jpeg" alt="">
+        <a class="a1" href="">Elephant</a>
+        <p><a href="https://en.wikipedia.org/wiki/Elephant">Elephants are the largest existing land animals. Three living species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant.</a></p>
+    </div>
+
+</div>
+</body>
+</html>
