@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Pseudo ELements are as under. */
+
+        div::first-letter
+        {
+            color: red;
+            font-size: 50px;
+        }
+        div::first-line
+        {
+            background-color: aqua;
+        }
+
+        /* Given style change when select . */
+        div::selection
+        {
+            background-color: blue;
+        }
+
+        /* to add additional content before or after. */
+        div::before
+        {
+            content: 'Hello, ';
+        }
+        div::after
+        {
+            content: ' Bye bye.';
+        }
+
+        /* only used when there is any list given in doc. */
+        ::marker
+        {
+            color: magenta;
+        }
+    </style>
+</head>
+<body>
+    <h1>Purvang Suhagiya</h1>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ab magnam consequatur reiciendis! Porro nemo, ut alias sed quae, iure voluptate ipsa sapiente assumenda dicta quis magnam ea, placeat veritatis.</div>
+    <ul>
+        <li>Parth</li>
+        <li>Pragnesh</li>
+        <li>Purvang</li>
+    </ul>
+</body>
+</html>
