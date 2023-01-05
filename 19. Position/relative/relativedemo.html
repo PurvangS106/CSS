@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Relative position:
+
+        An element with position: relative; is positioned relative to its normal position. 
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element. */
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* static position by default. */
+        .d1
+        {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        /* relative position. */
+        .d2
+        {
+            height: 200px;
+            width: 200px;
+            color: white;
+            text-align: center;
+            background-color: black;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+
+    </div>
+    <div class="d2">
+        I am relative position
+    </div>
+</body>
+</html>

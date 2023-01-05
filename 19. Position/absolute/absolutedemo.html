@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* Absolute position:
+        An element with "position: absolute;" is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However, if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+        
+        Note: Absolute positioned elements are removed from the normal flow, and can overlap elements. */
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* static position by default. */
+        .d1
+        {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+
+        /* absolute position */
+        .d2
+        {
+            height: 100px;
+            width: 100px;
+            color: white;
+            text-align: center;
+            background-color: black;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+
+    </div>
+    <div class="d2">
+        i am in absolute position
+    </div>
+</body>
+</html>
