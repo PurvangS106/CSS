@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The display property specifies the display behavior (the type of rendering box) of an element. -->
+
+    <!-- Display - grid
+
+    Displays an element as a block-level grid container.
+    The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning. -->
+
+    <style>
+        .d1 
+        { 
+            grid-area: d1; 
+        }
+        .d2 
+        {
+            grid-area: d2; 
+        }
+        .d3 
+        {
+            grid-area: d3; 
+        }
+        .d4 
+        { 
+            grid-area: d4; 
+        }
+        .d5 
+        { 
+            grid-area: d5; 
+        }
+
+        .main 
+        {
+            width: 50%;
+            display: grid;
+            grid-template-areas:'d1 d1 d2' 'd3 d4 d2' 'd3 d5 d5';
+            gap: 10px;
+            background-color: black;
+            padding: 10px;
+        }
+
+        div 
+        {
+            background-color: rgb(238, 238, 238);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>  
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
+</body>
+</html>

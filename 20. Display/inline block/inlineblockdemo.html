@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The display property specifies the display behavior (the type of rendering box) of an element. -->
+
+    <!-- display - inline-block
+    Compared to display:inline, the major difference is that display:inline-block allows to set a width and height on the element. 
+    Also, with display:inline-block, the top and bottom margins/paddings are respected, but with display:inline they are not. 
+    Compared to display:block, the major difference is that display:inline-block does not add a line-break after the element, so the element can sit next to other elements. -->
+
+    <style>
+        .s1
+        {
+            display: inline;                /* the default for span */
+            width: 150px;
+            height: 150px;
+            padding: 5px;
+            border: 1px solid black;  
+            background-color: yellow; 
+        }
+
+        .s2
+        {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            padding: 5px;
+            border: 1px solid black;    
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima alias animi quisquam voluptatem cupiditate assumenda, nesciunt vel omnis numquam <span class="s1">quos error ullam in,</span> quidem rem, nostrum adipisci similique eum.
+    Nostrum aperiam voluptatibus temporibus dolores culpa dolorum rem ipsam, dolor iure ea repellat odio, expedita, ullam laborum libero recusandae. Velit aperiam expedita, optio sequi asperiores est assumenda doloribus delectus voluptates.</div><br><br>
+    <div class="d2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eum amet a praesentium reprehenderit debitis distinctio repellat modi <span class="s2">iste repellendus vitae, </span>saepe inventore tempora nobis temporibus nulla aliquam, fuga odio!
+    Labore ut officia fuga voluptate repellendus excepturi odio rem omnis reiciendis accusantium nesciunt voluptates qui, tempore accusamus quo earum, consectetur asperiores nisi molestias distinctio dolores delectus eos. Mollitia, numquam dolorum.</div>
+</body>
+</html>
