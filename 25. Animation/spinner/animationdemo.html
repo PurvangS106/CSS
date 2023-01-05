@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        svg
+        {
+            position: absolute;
+            animation: anime 10s infinite;
+            top: 0;
+            left: 0;
+        }
+        svg polygon
+        {
+            animation: anime 10s infinite;
+        }
+        @keyframes anime
+        {
+            0%
+            {
+                top: 0;
+                background-color: rgb(0, 123, 255);
+                fill: orange;
+                transform: rotate(1440deg);
+            }
+            25%
+            {
+                top: 0;
+                left: 400px;
+                fill: yellow;
+                background-color: blue;
+                transform: rotate(1080deg);
+            }
+            50%
+            {
+                left: 400px;
+                top: 300px;
+                fill: green;
+                background-color: green;
+                transform: rotate(720deg);
+            }
+            75%
+            {
+                top: 300px;
+                left: 0;
+                fill: blue;
+                background-color: yellow;
+                transform: rotate(360deg);
+            }
+            100%
+            {
+                left: 0;
+                top: 0;
+                fill: rgb(0, 123, 255);
+                background-color: orange;
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg height="210px" width="200px" style="background-color:red ;">
+        <polygon points="100,10 40,198 190,78 10,78 160,198" fill="red"></polygon>
+    </svg>
+</body>
+</html>
