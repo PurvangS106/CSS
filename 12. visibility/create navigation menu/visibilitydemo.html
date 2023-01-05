@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* CSS Visibiliy 
+        The visibility property specifies whether or not an element is visible. */
+
+        *
+        {
+            list-style: none;
+        }
+        .main
+        {
+            margin:0;
+            padding: 0;
+            display: flex;
+        }
+        .sub
+        {
+            margin:0;
+            padding: 0;
+        }
+        .u1
+        {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .u2
+        {
+            margin: 0;
+            padding: 0;
+            visibility: hidden;
+            display:none;
+        }
+        .u1:hover .u2
+        {
+            visibility: visible;
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <ul class="main">
+        <li class="u1">Name
+            <ul class="sub">
+                <li class="u2">Parth</li>
+                <li class="u2">Pragnesh</li>
+                <li class="u2">Purvang</li>
+            </ul>
+        </li>
+        <li class="u1">Car
+            <ul class="sub">
+                <li class="u2">Lamborghini</li>
+                <li class="u2">Mercedes</li>
+                <li class="u2">Formula-1</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
