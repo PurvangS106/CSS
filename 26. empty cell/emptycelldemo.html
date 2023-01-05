@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    /* The empty-cells property sets whether or not to display borders on empty cells in a table. */
+
+        .t1
+        {
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- With empty-cells property hide. -->
+    <table class="t1" border="1px">
+        <tr>
+            <td>No.</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- without empty-cells property. -->
+    <table class="t2" border="1px">
+        <tr>
+            <td>No.</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
