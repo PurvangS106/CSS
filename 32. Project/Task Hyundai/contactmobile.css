@@ -1,0 +1,488 @@
+@media (min-width:801px) and (max-width:1050px) {
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .div1 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+
+    .subd1 {
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+
+    .subd1 img {
+        width: 20%;
+    }
+
+    .subd2 {
+        height: auto;
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .ul1 {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .li1 {
+        height: 50px;
+        float: left;
+        font-size: 14px;
+    }
+
+    .li1 a {
+        color: black;
+        padding: 17px;
+        line-height: 50px;
+    }
+
+    .li1:hover a {
+        color: white;
+        background-color: blue;
+    }
+
+    .p3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p3 i {
+        padding: 10px;
+    }
+
+    .p3 i:hover {
+        color: blue;
+    }
+
+    .div2 {
+        height: auto;
+        width: 100%;
+        background-color: aliceblue;
+
+    }
+
+    .div2 ul {
+        width: 80%;
+        display: flex;
+        float: left;
+    }
+
+    .div2 ul li {
+        margin-top: 20px;
+    }
+
+    .div2 ul li a {
+        padding: 0 5px;
+        color: black;
+        font-size: small;
+
+    }
+
+    .div2 .p2 {
+        width: 10%;
+        display: flex;
+        padding-top: 20px;
+        font-size: small;
+        text-align: right;
+    }
+
+    .div2 .p1 {
+        height: 500px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: white;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 90px;
+    }
+
+    .div3 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 50px 50px;
+    }
+
+    .div3 h1 {
+        font-size: 40px;
+    }
+
+    .div4 {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        background-color: aliceblue;
+        display: inline-block;
+    }
+
+    .div4 .subd3 {
+        height: 350px;
+        width: 40%;
+        margin: 30px 1% 0 9%;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+        float: left;
+    }
+
+    .div4 input {
+        height: 30px;
+        width: 30%;
+        background-color: blue;
+        color: white;
+    }
+
+    .div4 .subd4 {
+        height: 350px;
+        width: 40%;
+        margin: 30px 9% 0 1%;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+        float: left;
+    }
+
+    .div4 .subd5 {
+        height: 350px;
+        width: 40%;
+        margin: 30px 1% 0 9%;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+        float: left;
+    }
+
+    .div4 .subd6 {
+        height: 350px;
+        width: 40%;
+        margin: 30px 9% 0 1%;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+        float: left;
+    }
+
+    .div4 .subd7 {
+        height: 350px;
+        width: 40%;
+        margin: 30px 1% 30px 9%;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+        float: left;
+    }
+    .div11 {
+        width: 100%;
+        background-color: black;
+    }
+
+    .table2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .td2 img {
+        width: 80%;
+        background-size: cover;
+        padding-left: 20px;
+    }
+
+    .ul5 {
+
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+    }
+
+    .li5 {
+        width: 100%;
+        display: inline;
+        font-size: 12px;
+        color: white;
+    }
+
+    .li5 a {
+        color: grey;
+        padding: 5px;
+    }
+
+    .li5 a:hover {
+        color: white;
+    }
+
+    .td2 i {
+        padding-left: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+    .td2 i:hover
+    {
+        color: blue;
+    }
+}
+
+@media (max-width:800px)
+{
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .div1 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+
+    .subd1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .subd1 img {
+        width: 20%;
+    }
+
+    .subd2 {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .ul1 {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .li1 {
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        clear: both;
+    }
+
+    .li1 a {
+        color: black;
+        padding: 17px;
+        line-height: 50px;
+    }
+
+    .li1:hover a {
+        color: white;
+    }
+
+    .li1:hover {
+        background-color: blue;
+    }
+
+    .p3 {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+
+    .p3 i {
+        padding: 10px;
+    }
+
+    .p3 i:hover {
+        color: blue;
+    }
+
+    .div2 {
+        height: auto;
+        width: 100%;
+        background-color: aliceblue;
+
+    }
+
+    .div2 ul {
+        width: 80%;
+        display: flex;
+        float: left;
+    }
+
+    .div2 ul li {
+        margin-top: 20px;
+    }
+
+    .div2 ul li a {
+        padding: 0 5px;
+        color: black;
+        font-size: small;
+
+    }
+
+    .div2 .p2 {
+        width: 10%;
+        display: flex;
+        padding-top: 20px;
+        font-size: small;
+        text-align: right;
+    }
+
+    .div2 .p1 {
+        height: 500px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: white;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 90px;
+    }
+
+    .div3 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 50px 50px;
+    }
+
+    .div3 h1 {
+        font-size: 40px;
+    }
+
+    .div4 {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        background-color: aliceblue;
+        display: inline-block;
+    }
+
+    .div4 .subd3 {
+        height: auto;
+        width: 90%;
+        margin: 30px 5% 0;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+    }
+
+    .div4 input {
+        height: 30px;
+        width: 30%;
+        background-color: blue;
+        color: white;
+    }
+
+    .div4 .subd4 {
+        height: auto;
+        width: 90%;
+        margin: 30px 5% 0;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+    }
+
+    .div4 .subd5 {
+        height: auto;
+        width: 90%;
+        margin: 30px 5% 0;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+    }
+
+    .div4 .subd6 {
+        height: auto;
+        width: 90%;
+        margin: 30px 5% 0 ;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+    }
+
+    .div4 .subd7 {
+        height: auto;
+        width: 90%;
+        margin: 30px 5% 30px;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+        background-color: white;
+    }
+    .div11 {
+        width: 100%;
+        background-color: black;
+    }
+
+    .table2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .td2 img {
+        width: 90%;
+        background-size: cover;
+        padding-left: 10%;
+    }
+
+    .ul5 {
+
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+    }
+
+    .li5 {
+        width: 100%;
+        font-size: 12px;
+        color: white;
+        padding: 5px;
+    }
+
+    .li5 a {
+        color: grey;
+        padding: 5px;
+    }
+
+    .li5 a:hover {
+        color: white;
+    }
+
+    .td2 i {
+        padding-left: 5px;
+        padding-bottom: 5px;
+        color: white;
+        display: block;
+    }
+
+    .td2 i:hover
+    {
+        color: blue;
+    }
+
+}

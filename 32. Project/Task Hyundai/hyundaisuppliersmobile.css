@@ -1,0 +1,148 @@
+@media (max-width:600px)
+{
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.div1
+{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.subd1
+{
+    height: 50px;
+    width: 100%;
+}
+.subd1 img
+{
+    height: 50px;
+    width: 20%;
+    padding: 0 5px;
+}
+.subd2
+{
+    height: auto;
+    width: 100%;
+}
+.ul1
+{
+    width: 100%;
+}
+.li1
+{
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+}
+.li1 a
+{
+    color: black;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+}
+.li1:hover a
+{
+    color: white;
+    background-color: blue;
+}
+.subd3
+{
+    height: auto;
+    width: 100%;
+}
+.ul2
+{
+    padding: 0; 
+    margin: 0;
+}
+.li2
+{
+    height: 50px;
+    font-size: 14px;
+}
+.li2 a
+{
+    color: gray;
+    padding: 17px;
+    line-height: 50px;
+}
+.li2:hover a
+{
+    color: black;
+}
+.div2 img
+{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+.div2 a
+{
+    position: relative;
+}
+.div2 figcaption
+{
+    font-size: 15px;
+    overflow-x: scroll;
+    color: black;
+    text-shadow: 1px 1px 10px white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    max-width: 100%;
+}
+.div2 h1
+{
+    font-size: 20px;
+}
+.div11
+{
+    margin-top: 0;
+    width: 100%;
+    background-color:black;
+    display: flex;
+}
+.table2
+{
+    width: 100%;
+    text-align: left;
+}
+.tr2,.tr3
+{
+    height: auto;
+    color: gray;
+}
+.tr2 img
+{
+    width: 99%;
+    background-size: cover;
+    padding-left: 1px;
+}
+.tr2 a
+{
+    color: grey;
+    padding-left: 10px;
+    font-size: 10px;
+}
+.tr2 a:hover
+{
+    color: white;
+}
+.tr3 a
+{
+    padding-left: 10px;
+    color: white;
+    font-size: 10px;
+}
+}

@@ -1,0 +1,407 @@
+@media (min-width:801px) and (max-width:1050px)
+{
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: Verdana; */
+}
+.div1
+{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+.subd1
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.subd1 img
+{
+    width: 150px;
+}
+.subd2
+{
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.ul1
+{
+    list-style: none;
+    text-align: center;
+}
+.li1
+{
+    height: 50px;
+    display: inline;
+    font-size: 14px;
+}
+.li1 a
+{
+    color: black;
+    padding: 17px;
+    line-height: 50px;
+}
+.li1:hover a
+{
+    color: white;
+    background-color: blue;
+}
+.p3
+{
+    width: 100%;
+    text-align: center;
+}
+.p3 i
+{
+    padding: 0 10px;
+    line-height: 50px;
+}
+.p3 i:hover
+{
+    color: blue ;
+}
+
+.div2
+{
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+.div2 ul
+{
+    width: 80%;
+    display: flex;
+    float: left;
+}
+.div2 ul li
+{
+    margin-top: 20px;
+}
+.div2 ul li a
+{
+    padding: 0 5px;
+    color: black;
+    font-size: small;
+    
+}
+.div2 .p2
+{
+    width: 10%;
+    display: flex;
+    padding-top: 20px;
+    font-size: small;
+    text-align: right;
+}
+.div2 .p1
+{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+}
+.div3
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.li2
+{
+    display: inline;
+    margin-top: 30px;
+}
+.li2 a
+{
+    padding:15px 15px ;
+    color: black;
+    background-color: white;
+    line-height: 50px;
+}
+.li2:hover a
+{
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+.div4
+{
+    width: 80%;
+    margin: 0 10%;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+.div4 span
+{
+    font-weight: bold;
+}
+.div11
+{
+    margin-top: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.table2
+{
+    width: 100%;
+    text-align: left;
+}
+.td2 img
+{
+    width: 80%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.ul5
+{
+    
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  
+}
+.li5
+{
+    width: 100%;
+    display: inline;
+    font-size: 12px;
+    color: white;
+}
+.li5 a
+{
+    color: grey;
+    padding: 10px;
+}
+.li5 a:hover
+{
+    color: white;
+}
+.td2 i
+{
+    padding-left: 10px;
+    color: white;
+}
+.td2 i:hover 
+{
+    color: blue;
+}
+}
+
+@media (max-width:800px)
+{
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.div1
+{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+.subd1
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.subd1 img
+{
+    width: 150px;
+}
+.subd2
+{
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.ul1
+{
+    list-style: none;
+    text-align: center;
+}
+.li1
+{
+    height: 50px;
+    font-size: 14px;
+}
+.li1 a
+{
+    color: black;
+    display: block;
+    /* padding: 17px; */
+    line-height: 50px;
+}
+.li1:hover a
+{
+    color: white;
+    background-color: blue;
+}
+.p3
+{
+    width: 100%;
+    text-align: center;
+}
+.p3 i
+{
+    padding: 0 10px;
+    line-height: 50px;
+}
+.p3 i:hover
+{
+    color: blue ;
+}
+
+.div2
+{
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+.div2 ul
+{
+    width: 80%;
+    display: flex;
+    float: left;
+}
+.div2 ul li
+{
+    margin-top: 20px;
+}
+.div2 ul li a
+{
+    padding: 0 5px;
+    color: black;
+    font-size: small;
+    
+}
+.div2 .p2
+{
+    width: 10%;
+    display: flex;
+    padding-top: 20px;
+    font-size: small;
+    text-align: right;
+}
+.div2 .p1
+{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+}
+.div3
+{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.li2
+{
+    display: block;
+    margin-top: 30px;
+}
+.li2 a
+{
+    padding:10px ;
+    color: black;
+    background-color: white;
+    line-height: 50px;
+}
+.li2:hover a
+{
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+.div4
+{
+    width: 80%;
+    margin: 0 10%;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+.div4 span
+{
+    font-weight: bold;
+}
+.div11
+{
+    margin-top: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.table2
+{
+    width: 100%;
+    text-align: left;
+}
+.td2 img
+{
+    width: 80%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.ul5
+{
+    
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  
+}
+.li5
+{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+.li5 a
+{
+    color: grey;
+    padding: 10px;
+}
+.li5 a:hover
+{
+    color: white;
+}
+.td2 i
+{
+    display: block;
+    padding:5px 0 0 5px;
+    color: white;
+}
+.td2 i:hover 
+{
+    color: blue;
+}
+}
