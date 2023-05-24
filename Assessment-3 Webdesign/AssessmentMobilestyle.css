@@ -1,0 +1,175 @@
+@media (max-width:524px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .maindivision{
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    .images{
+        display: none;
+    }
+    .navigation{
+        background-color: #000;
+        opacity: 0.6;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        padding: 10px 20px;
+        color: #fff;
+    }
+    .navigation .logo{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 50px;
+        border: 1px solid #fff;
+        padding: 20px 8px;
+    }
+    .navigation .nav_bar{
+        margin: 50px 0 80px 0;
+    }
+    .navigation .nav_bar a{
+        
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        margin: 2rem 0;
+        text-decoration: none;
+    }
+    .navigation .nav_bar a:hover{
+        letter-spacing: 2px;
+        font-weight: bold;
+        transition: 0.2s linear;
+    }
+    
+    .navigation .follow a{
+        font-size: 25px;
+        color: #fff;
+        margin: 0 .7rem;
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+    .article{
+        width: 100%;
+        height: auto;
+    }
+    .article .text_box{
+        padding: 30px;
+        background-color: #fff;
+        opacity: 0.7;
+    }
+    .article .text_box p{
+        text-align: justify;
+    }
+    
+    .maincontent{
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    .subdiv_2{
+        background-color: #fff;
+        width: 100%;
+    }
+    .about{
+        display: flex;
+    }
+    .section_1,.section_2{
+        padding: 30px;
+    }
+    .section_1 i, .section_2 i{
+        font-size: 100px;
+        font-weight: bolder;
+        color: rgb(12, 97, 72);
+        margin-bottom: 30px;
+    }
+    .text_box h3, .section_1 h2, .section_2 h2, .desc h2, .talk h2, .work h2{
+        font-size: 30px;
+        color: rgb(12, 97, 72);
+        margin-bottom: 30px;
+        font-weight: 300;
+        text-shadow: 1px 1px 3px rgba(12, 97, 71, 0.633);
+    }
+    .section_1 p, .section_2 p, .desc p, .talk p{
+        color: #000;
+        margin-bottom: 30px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .work{
+        padding: 0px 30px 50px;
+    }
+    .cell{
+        width: 100%;
+        height: auto;
+        margin: 0 15px;
+    }
+    .cell img{
+        width: 100%;
+        height: auto;
+    }
+    .clients{
+        padding: 30px;
+        width: 100%;
+    }
+    .companies_part1, .companies_part2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 25px;
+        justify-content: space-evenly;
+    }
+    .companies_part1 img, .companies_part2 img{
+        width: 20%;
+        border: 1px solid gray;
+        padding: 1%;
+        border-radius: 5px;
+    }
+    
+    .talk{
+        padding: 30px;
+        width: 100%;
+    }
+    
+    .talk p{
+        text-align: justify;
+        padding: 20px;
+        border: 1px solid gray;
+    }
+    
+    .contact{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contact input{
+        margin-bottom: 40px;
+    }
+    .contact .inputs{
+        border-top: none;
+        border-right: none;
+        border-Left: none;  
+        width: 100%;
+    }
+    .contact button{
+        font-size: 20px;
+        background-color: rgb(12, 97, 72);
+        color: #fff;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 20px;
+    }
+    .contact button:hover{
+        color: rgb(12, 97, 72);
+        background-color: #fff;
+        border: 1px solid rgb(12, 97, 72);
+    }
+}
